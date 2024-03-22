@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    background-color: #f44336;
+    width: 100%;
+    box-shadow: 0px 1px 5px 1px rgb(156, 155, 155);
+    position: fixed;
+    top:0;
+}
+.ul {
+    display: flex;
+    list-style: none;
+    
+}
+.ul .li {
+    padding: 20px 40px;
+    color: white;
+}
+.ul .li a{
+    text-decoration: none;
+    color: white;
+}
+#activehome {
+    background-color: white;
+    color:black ;
+}
+.parent{
+    height: 500px;
+    background-color: #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent .child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    color: white;
+    font-size: 30px;
+}
+.parent .child .button{
+    background-color: black;
+    color: white;
+    border-radius:3px ;
+    font-size: 20px;
+    padding: 12px 24px;
+}
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+}
+.father .sid1 {
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.father .sid1 .son1 p{
+    padding: 20px 0px;
+}
+.greycolor{
+    color: #757575;
+}
+.father .sid2{
+    height: 100%;
+    padding-right: 160px;
+}
+.father2{
+background-color:  rgb(240, 238, 238);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin-top: 50px;
+}
+
+.father2 .sid1{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.father2 .sid2{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.father2 .sid2 p{
+    padding: 20px;
+}
+.q{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: larger;
+}
+.quoto{
+    padding: 50px;
+}
+.footer{
+text-align: center;
+padding: 20px;
+}
+.footer .end{
+color: gray;
+padding: 20px;
+
+}
+.link{
+color: gray;
+}
+.fa{
+    height: 70px;
+    width: 100%;
+    background-color: #757575;
+}
+.fo{
+    background-color: #757575;
+    height: 70px;
+    width: 100%;
+}
